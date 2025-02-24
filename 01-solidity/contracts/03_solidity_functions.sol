@@ -6,14 +6,14 @@ contract SolidityFunctions {
     uint256 balance = 0;
 
     constructor(uint256 initialBalance) {
-        // balance = initialBalance;
+        balance = initialBalance;
     }
 
-    function addBalance(uint256 toAddBalance) public {
-        // balance += toAddBalance;
+    function addBalance(uint256 toAddBalance) public {  // access externally
+        balance += toAddBalance;
     }
 
-    function getBalance() public view returns (uint256) {
-        // return balance;
+    function getBalance() public view returns (uint256) { // show the value of balance in the display
+        return balance;
     }
 }

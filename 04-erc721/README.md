@@ -11,3 +11,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
+
+ERC20: 0xED4C225cE9462f997F0a06ce30a296106cd788fD
