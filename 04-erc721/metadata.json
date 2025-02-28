@@ -1,0 +1,12 @@
+{
+    "name": "LoliWorldOrder",
+    "description": "A loli named Kanna is a communist loli",
+    "symbol": "LWO",
+    "image": "https://i.imgur.com/jZruFBn.jpeg",
+    "attributes": [
+        {
+            "trait_type": "communist",
+            "value": "communistloli"
+        }
+    ]
+}
